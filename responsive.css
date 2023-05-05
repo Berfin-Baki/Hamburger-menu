@@ -1,0 +1,53 @@
+@media screen and (max-width: 600px) {
+    .imgResDiv {
+        flex: 100%
+    }
+
+    .imgMaindiv {
+        flex-direction: column;
+    }
+
+    .mobileLinkDisplay {
+        display: none;
+    }
+
+    .mobileLink {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .mobileIcon {
+        display: block;
+    }
+
+    .headerimg {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footerList {
+        display: flex;
+        padding: 0px;
+    }
+
+    .footerList li {
+        margin: 10px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .İmgresDiv {
+        flex: 50%;
+    }
+}
